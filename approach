@@ -1,0 +1,11 @@
+
+Process Followed:
+    1. Written the code as an ETL pipeline where it contains extractor.py, transformer.py and loader.py inside etl_utils folder
+
+    a) extractor.py - this will extract the data from the input source files either CSV or JSON
+    b) transformer.py - This has all the actual transformation which we need to generate the features
+    c) loader.py - To load the output DataFrame to CSV file
+
+    All these three utils will be called from main.py file.
+
+Tools Used: Python, Spark, PySpark
